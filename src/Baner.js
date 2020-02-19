@@ -1,6 +1,7 @@
 import React from "react"
 import {makeStyles} from "@material-ui/core/styles"
 import Image from "./images/baner.jpg"
+import {Link} from "react-scroll"
 
 const useStyles = makeStyles ({
     container:{
@@ -61,8 +62,9 @@ const Baner = () => {
                     <p className={classes.textdown}>PLATINIUM HOTEL</p>
                     </p>
                     
-                   
+                   <Link  to="Info" smooth={true} duration={500}>
                     <button className={classes.button}>MORE INFO</button>
+                    </Link>
                     
             </div>
         </div>
