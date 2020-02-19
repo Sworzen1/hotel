@@ -29,6 +29,7 @@ const useStyles = makeStyles ({
         color:"gold",
         fontSize:"50px",
         fontWeight:800,
+        letterSpacing:"10px"
 
     },
     button:{
