@@ -84,7 +84,12 @@ const Nav = () => {
             Info
           </li>
           </Link>
-          <Link to="section2" smooth={true} duration={500} >
+          <Link to="Restaurant" smooth={true} duration={500} >
+          <li className={classes.li}>
+            Restaurant
+          </li>
+          </Link>
+          <Link to="Contact" smooth={true} duration={500} >
           <li className={classes.li}>
             Contact
           </li>
