@@ -7,7 +7,7 @@ const useStyles = makeStyles({
     zIndex: 3,
     position: "fixed",
     width: "100%",
-    height: "100px",
+    height: "90px",
     borderBottom: "1px solid white",
     color: "white"
   },
@@ -22,6 +22,24 @@ const useStyles = makeStyles({
     fontWeight: 300,
     letterSpacing: "4px"
   },
+  menu:{
+    position:"relative",
+    display:"flex",
+    justifyContent:"space-around",
+    alignItems:"center",
+    width:"40vw",
+    listStyle:"none",
+    
+  },
+  li:{
+    height:"60px",
+    width:"110px",
+    cursor:"pointer",
+    "&:hover":{
+      backgroundColor:"white",
+      color:"black"
+    }   
+  }
 
 
 });
@@ -33,7 +51,20 @@ const Nav = () => {
     <div className={classes.nav}>
      
       <div className={classes.brand}>
-        <span>Resort</span>
+        <ul className={classes.menu}>
+          <li className={classes.li}>
+            Home
+          </li>
+          <li className={classes.li}>
+            Rooms
+          </li>
+          <li className={classes.li}>
+            Info
+          </li>
+          <li className={classes.li}>
+            Contact
+          </li>
+        </ul>
       </div>
      
     </div>
