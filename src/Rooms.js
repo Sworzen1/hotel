@@ -1,8 +1,8 @@
 import React from "react"
 import {makeStyles} from "@material-ui/core/styles"
-import easy from "./easy.jpg"
-import medium from "./medium.jpg"
-import hard from "./hard.jpg"
+import easy from "./images/easy.jpg"
+import medium from "./images/medium.jpg"
+import hard from "./images/hard.jpg"
 import RoomItem from "./RoomItem"
 
 const useStyles = makeStyles({

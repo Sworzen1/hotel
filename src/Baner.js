@@ -1,6 +1,6 @@
 import React from "react"
 import {makeStyles} from "@material-ui/core/styles"
-import Image from "./baner.jpg"
+import Image from "./images/baner.jpg"
 
 const useStyles = makeStyles ({
     container:{

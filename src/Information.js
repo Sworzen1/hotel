@@ -1,6 +1,7 @@
 import React from "react"
 import {makeStyles} from "@material-ui/core/styles"
-import reception from "./reception.jpg"
+import reception from "./images/reception.jpg"
+
 const useStyles = makeStyles({
     container:{
         height:"70vh",
