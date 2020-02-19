@@ -1,5 +1,6 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
+import useWindowScrollPosition from "@rehooks/window-scroll-position"
 
 
 const useStyles = makeStyles({
@@ -9,7 +10,18 @@ const useStyles = makeStyles({
     width: "100%",
     height: "90px",
     borderBottom: "1px solid white",
-    color: "white"
+    color: "white",
+    transition:"0.5s"
+  },
+  navScrol:{
+    zIndex: 3,
+    position: "fixed",
+    width: "100%",
+    height: "90px",
+    borderBottom: "1px solid white",
+    color: "black",
+    backgroundColor:"#dadbd8",
+    transition:"0.5s"
   },
 
   brand: {
@@ -47,8 +59,12 @@ const useStyles = makeStyles({
 const Nav = () => {
   const classes = useStyles();
 
+
+  let position = useWindowScrollPosition()
+
+
   return (
-    <div className={classes.nav}>
+    <div  className={position.y < 100 ? classes.nav :classes.navScrol }>
      
       <div className={classes.brand}>
         <ul className={classes.menu}>
