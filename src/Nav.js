@@ -1,6 +1,7 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import useWindowScrollPosition from "@rehooks/window-scroll-position"
+import {Link} from "react-scroll"
 
 
 const useStyles = makeStyles({
@@ -68,18 +69,26 @@ const Nav = () => {
      
       <div className={classes.brand}>
         <ul className={classes.menu}>
+        <Link to="Home" smooth={true} duration={500} >
           <li className={classes.li}>
             Home
           </li>
+          </Link>
+          <Link to="Rooms" smooth={true} duration={500} >
           <li className={classes.li}>
             Rooms
           </li>
+          </Link>
+          <Link to="Info" smooth={true} duration={500} >
           <li className={classes.li}>
             Info
           </li>
+          </Link>
+          <Link to="section2" smooth={true} duration={500} >
           <li className={classes.li}>
             Contact
           </li>
+          </Link>
         </ul>
       </div>
      

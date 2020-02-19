@@ -55,7 +55,7 @@ const Baner = () => {
     const classes = useStyles();
 
     return (
-        <div className={classes.container}>
+        <div className={classes.container} id="Home">
             <div className={classes.welcome}>
                 <p className={classes.textup}>welcome to
                     <p className={classes.textdown}>PLATINIUM HOTEL</p>

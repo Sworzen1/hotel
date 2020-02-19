@@ -41,7 +41,7 @@ const useStyles = makeStyles({
 const Information = () => {
     const classes = useStyles()
     return(
-        <div className={classes.container}>
+        <div className={classes.container} id="Info">
             <div className={classes.left}></div>
             <div className={classes.right}>
                 <div className={classes.text}>
