@@ -5,6 +5,7 @@ import Baner from "./Baner"
 import Rooms from "./Rooms"
 import Information from "./Information"
 import Restaurant from "./Restaurant"
+import Contact from "./Contact"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Rooms />
       <Information />
       <Restaurant />
+      <Contact />
     </div>
   );
 }
