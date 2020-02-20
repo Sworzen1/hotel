@@ -62,7 +62,7 @@ const Baner = () => {
                     <p className={classes.textdown}>PLATINIUM HOTEL</p>
                     </p>
                     
-                   <Link  to="Info" smooth={true} duration={500}>
+                   <Link  to="Info" smooth={true} duration={500}  offset={-90}>
                     <button className={classes.button}>MORE INFO</button>
                     </Link>
                     
