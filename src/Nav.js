@@ -74,17 +74,17 @@ const Nav = () => {
             Home
           </li>
           </Link>
-          <Link to="Rooms" smooth={true} duration={500} >
+          <Link to="Rooms" smooth={true} duration={500} offset={-90} >
           <li className={classes.li}>
             Rooms
           </li>
           </Link>
-          <Link to="Info" smooth={true} duration={500} >
+          <Link to="Info" smooth={true} duration={500} offset={-90}>
           <li className={classes.li}>
             Info
           </li>
           </Link>
-          <Link to="Restaurant" smooth={true} duration={500} >
+          <Link to="Restaurant" smooth={true} duration={500} offset={-90}>
           <li className={classes.li}>
             Restaurant
           </li>
