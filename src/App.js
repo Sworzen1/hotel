@@ -6,6 +6,7 @@ import Rooms from "./Rooms"
 import Information from "./Information"
 import Restaurant from "./Restaurant"
 import Contact from "./Contact"
+import Footer from "./Footer"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Information />
       <Restaurant />
       <Contact />
+      <Footer />
     </div>
   );
 }
