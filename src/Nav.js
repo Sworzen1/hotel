@@ -89,7 +89,7 @@ const Nav = () => {
             Restaurant
           </li>
           </Link>
-          <Link to="Contact" smooth={true} duration={500} >
+          <Link to="Contact" smooth={true} duration={500} offset={-90}>
           <li className={classes.li}>
             Contact
           </li>
